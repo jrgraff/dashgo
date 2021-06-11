@@ -24,7 +24,13 @@ export default function SignIn() {
         <Input name="password" type="password" label="Senha" />
       </Stack>
 
-      <Button type="submit" mt="6" colorScheme="pink">Entrar</Button>
+      <Button 
+        as="a" 
+        href="/dashboard"
+        type="submit" 
+        mt="6" 
+        colorScheme="pink"
+      >Entrar</Button>
     </Flex>
     </Flex>
   )
